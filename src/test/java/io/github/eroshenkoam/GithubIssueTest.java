@@ -31,7 +31,7 @@ public class GithubIssueTest {
     }
 
     @Test
-    @Issue("MH-2")
+    @Issue("MID-2")
     @DisplayName("Открываем сщуствующую Issue")
     public void testIssue() {
         step("Открываем главную страницу", () -> {
